@@ -99,3 +99,15 @@ section.module.parallax-3{
     z-index: 50;
     text-transform: uppercase;
 }
+
+@media(max-width: 690px){
+    .parallax h1{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 353px){
+    .parallax h1{
+        font-size: 20px;
+    }
+}
